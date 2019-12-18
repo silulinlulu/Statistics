@@ -1,0 +1,7 @@
+# square brackets [] 
+select and replace
+
+meta$Age<-as.character(meta$Age)
+meta$Tissue<-'head'
+meta[meta$Caste=='worker',]$Age<-'>22 months'
+meta[meta$Caste=='neot. Queen',]$Age<-'>22 months reproducing'
